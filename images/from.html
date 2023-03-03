@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5500/test/From.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>from</title>
+  </head>
+  <body data-cloudapp-toast-available="true">
+    <h2>Registration</h2>
+    <form>
+      <div>
+        <label for="fullname">Fullname:</label><input type="text" name="fullname" id="fullname">
+      </div>
+      <br>
+      <div>
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email">
+      </div>
+      <br>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" <="" div="">
+      <div>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" name="dob" id="dob">
+      </div>
+      <br>
+      <div>
+        <label for="photo">Choose your photo</label>
+        <input type="file" name="photo" id="photo">
+      </div>
+      <br>
+      <div>
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="gender" value="male">male
+        <input type="radio" name="gendear" id="gender" value="female">female
+      </div>
+      <div>
+        <label for="religion">Raligion</label>
+        <input type="checkbox" name="01" id="hindu" value="hindu">himdu
+        <input type="checkbox" name="01" id="islam" value="islam">muslim
+      </div>
+      <br>
+      <div>
+        <label for="message" :="">Message</label><br>
+        <textarea cols="40" rows="10"></textarea>
+      </div>
+      <div>
+        <input type="submit" value="register">
+        <input type="reset" value="clear">
+      </div>
+    
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</div></form></body></html>

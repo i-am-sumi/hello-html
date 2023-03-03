@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <form>
+      <div>
+        <label for="education">Education :</label>
+        <input type="text" name="education" id="education" />
+      </div>
+      <br />
+      <div>
+        <input />
+      </div>
+      <br />
+      <div>
+        <label for="k">Board:</label>
+        <input type="text" name="board" id="Koo" />
+      </div>
+      <br />
+      <div>
+        <label for="roll">Roll:</label>
+        <input type="number" name="roll" id="k" />
+      </div>
+    </form>
+    <button>Submit</button>
+    <script>
+      document.querySelector('button').addEventListener('click', () => {
+        const d = document.querySelector('input[name="education"]');
+        console.log('hello', d.value);
+      });
+    </script>
+  </body>
+</html>
