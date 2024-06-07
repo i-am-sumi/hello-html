@@ -1,0 +1,48 @@
+.orange-bg {
+  background-color: rgb(180, 231, 214);
+  text-align: center;
+  margin-top: 30px;
+}
+h2 {
+  color: rgb(188, 63, 205);
+}
+h1 {
+  color: rgb(220, 85, 238);
+}
+.btn {
+  background-color: rgb(23, 20, 21);
+  color: white;
+  border-radius: 10px;
+}
+.card {
+  box-shadow: 0 5px 6px 10px rgb(236, 236, 241);
+  text-align: center;
+}
+.cards {
+  margin-top: 50px;
+}
+h3 {
+  margin-top: 20px;
+}
+h5 {
+  margin-top: 50px;
+  text-align: center;
+}
+.head-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.img {
+  margin-top: 100px;
+  justify-content: center;
+  background-color: ghostwhite;
+  margin: 5px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+p {
+  color: orange;
+}

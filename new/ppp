@@ -1,0 +1,32 @@
+<button class="social-madia__icon">
+        <i class="fa fa-home" aria-hidden="true"></i>
+      </button>
+      <button class="social-madia__icon">
+        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+      </button>
+      <button class="social-madia__icon">
+        <i class="fa fa-gamepad" aria-hidden="true"></i>
+      </button>
+      <button class="social-madia__icon">
+        <i class="fa fa-user-circle" style="color: "></i>
+      </button>
+      <button class="social-madia__icon">
+        <i class="fa fa-bell" aria-hidden="true"></i>
+      </button>
+      <button class="social-madia__icon">
+        <i class="fa fa-bars" style="color: " aria-hidden="true"></i>
+      </button>
+    </nav>
+    <div class="menu">
+      <h1>Menu</h1>
+      <div>
+        <button class="menu__icon">
+          <i class="fa fa-cog" aria-hidden="true"></i>
+        </button>
+        <button class="menu__icon">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  line-height: 1.4;
+  font-weight: 300;
+}
+.hero_section {
+  background-image: url(wd.webp);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.text_container {
+  position: absolute;
+  text-align: center;
+  top: 40%;
+  width: 100%;
+  color: white;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.lg_text {
+  font-size: 72px;
+}

@@ -1,0 +1,108 @@
+* {
+  margin: auto;
+  padding: auto;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.navber {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin: auto;
+}
+.nav,
+li,
+a {
+  text-decoration: none;
+  display: flex;
+  margin: 5px;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+li {
+  list-style-type: none;
+  display: inline;
+  color: white;
+}
+li :hover {
+  background-color: rgb(210, 153, 202);
+  color: black;
+  border-radius: 15px;
+}
+.head {
+  background-color: rgb(184, 245, 225);
+}
+.btn {
+  padding: 10px;
+  border-radius: 15px;
+  background-color: green;
+  border: none;
+  font-size: 1rem;
+  color: white;
+}
+.card-body {
+  margin-bottom: 20px;
+}
+.article {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.aside {
+  display: flex;
+  margin-top: 20px;
+  text-align: center;
+  background-color: antiquewhite;
+}
+p {
+  color: orange;
+}
+.img {
+  background-color: rgb(185, 248, 227);
+  padding: 50px;
+  font-size: 1.2rem;
+}
+.img:hover {
+  background-color: white;
+  font-size: 2rem;
+  box-shadow: 0 4px 6px 8px rgb(233, 199, 195);
+}
+.contant {
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+.cards {
+  display: flex;
+}
+.card {
+  text-align: center;
+  margin-top: 50px;
+  box-shadow: 0 4px 6px 8px rgb(234, 240, 240);
+}
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+.menu {
+  display: flex;
+  text-align: center;
+  margin: 10px 50px 10px 50px;
+}
+.art {
+  text-align: center;
+  font-size: 1.5rem;
+  text-align: start;
+}
+.footer {
+  display: flex;
+  background-color: black;
+  color: white;
+}
+span {
+  text-align: start;
+  font-size: 1.2rem;
+}

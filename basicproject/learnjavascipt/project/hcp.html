@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>job application</title>
+    <link rel="stylesheet" href="hcp.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="apply_box">
+        <h1>
+          Job Application
+          <span class="title">(web)</span>
+        </h1>
+        <form action="">
+          <div class="form_container">
+            <div class="form_contant">
+              <label for="first name">First Name</label>
+              <input
+                type="first_name"
+                name="first_name"
+                placeholder="enter your first name"
+              />
+            </div>
+            <div class="form_contant">
+              <label for="last name">Last Name</label>
+              <input
+                type="last_name"
+                name="last name"
+                placeholder="enter your"
+              />
+            </div>
+            <div class="form_contant">
+              <label for="email">Email </label>
+              <input type="email" id="email" placeholder="enter your email" />
+            </div>
+            <div class="form_contant">
+              <label for="job Role">Job Role</label>
+              <select id="">
+                <option value="">Select Job Role</option>
+                <option value="frontend">frontend developer</option>
+                <option value="backend">backend developer</option>
+                <option value="full_stack">Full stack developer</option>
+                <option value="ui_ux">Ui Ux designer</option>
+              </select>
+            </div>
+            <div class="text_contant">
+              <label for=" Address"> Address</label>
+              <textarea
+                id="address"
+                name="address"
+                rows="4"
+                cols="50"
+                placeholder="Enter Address"
+              ></textarea>
+            </div>
+            <div class="form_contant">
+              <label for="city">City</label>
+              <input type="city" id="city" name="city" placeholder="" />
+            </div>
+            <div class="form_contant">
+              <label for="Pincode">Pincode</label>
+              <input
+                type="number"
+                id="pincode"
+                name="pincode"
+                placeholder="Enter your pincode.."
+              />
+            </div>
+            <div class="form_contant">
+              <label for="start date">Start Date</label>
+              <input value="2003-11-02" type="date" id="date" name="date" />
+            </div>
+            <div class="form_contant">
+              <label for="upload">Upload Your CV </label>
+              <input type="file" id="upload" name="upload" />
+            </div>
+          </div>
+          <div class="button_contant">
+            <button type="submit">Apply now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,693 @@
+* {
+  width: ;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container__logo {
+  width: 120px;
+  height: 35px;
+}
+.container__logo img {
+  width: 100%;
+  height: 100%;
+}
+.container__navber {
+  background-color: rgb(185, 28, 28);
+  width: 100%;
+}
+.container__navs {
+  display: flex;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.container__list {
+  display: flex;
+  list-style: none;
+  gap: 28px;
+  color: rgb(255, 255, 255);
+  font-size: 12px;
+  padding-top: 7px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.var-icon {
+  display: none;
+}
+.h-btn {
+  padding: 7px 15px;
+  background-color: var(--color-2);
+  border: 1px solid white;
+  border-radius: 8px;
+  font-size: 12px;
+  color: white;
+}
+.container__style {
+  background-image: url(bimg.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  color: white;
+}
+.container__aside {
+  max-width: 450px;
+  position: relative;
+  margin-left: -10px;
+  padding-left: 40px;
+  text-align: left;
+}
+.container__aside h1 {
+  font-size: 50px;
+  padding-bottom: 20px;
+  font-family: 'Fahkwang';
+}
+.container__aside p {
+  padding-bottom: 40px;
+  line-height: 22px;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+.m-btn {
+  padding: 11px 20px;
+  background-color: rgb(185, 28, 28);
+  border: none;
+  color: white;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+.container__aside span {
+  font-size: 13px;
+  font-weight: 600;
+}
+.bs {
+  position: relative;
+  margin-top: -70px;
+  height: 50px;
+  max-width: 1240px;
+}
+.bs svg {
+  width: 100%;
+  height: 100%;
+}
+.contant {
+  background-image: url(bii.webp);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.contants {
+  background-color: rgb(247, 247, 247);
+  padding-bottom: 40px;
+}
+.contant__foods {
+  display: flex;
+  max-width: 850px;
+}
+.contant span {
+  color: rgb(239, 68, 68);
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.contant h1 {
+  font-family: 'Fahkwang';
+  font-size: 30px;
+  color: rgb(67, 67, 70);
+  font-weight: 600;
+}
+.contant__f-menus {
+  width: 50%;
+  text-align: center;
+}
+.contant__f-menus h4 {
+  padding-top: 20px;
+  font-size: 16px;
+  padding-bottom: 10px;
+  font-family: 'Fahkwang';
+}
+.contant__f-menus p {
+  font-family: 'Roboto';
+  font-size: 11px;
+  padding-right: 7px;
+  color: rgb(71, 70, 70);
+}
+.contant__photo {
+  max-width: 200px;
+  height: 200px;
+}
+.contant__photo img {
+  width: 100%;
+  height: 100%;
+}
+.foods__photo {
+  max-width: 300px;
+  height: 90px;
+}
+.foods {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.foods__photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  padding-right: 5px;
+}
+.foods__card {
+  max-width: 400px;
+  border: 1px solid rgb(184, 182, 182);
+  background-color: var(--color-2);
+  border-radius: 5px;
+  padding: 7px;
+  display: flex;
+  transition-property: transform 1s;
+}
+.foods__card:hover {
+  transform: scale(1.02);
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px rgb(233, 231, 231);
+}
+.foods__card span {
+  color: rgb(185, 28, 28);
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Fahkwang';
+}
+.foods__title {
+  max-width: 200px;
+}
+.foods__h {
+  text-align: center;
+}
+.foods__h span {
+  color: rgb(239, 68, 68);
+  font-size: 17px;
+  font-family: 'Roboto';
+}
+.foods__h h1 {
+  font-size: 27px;
+  font-family: 'Fahkwang';
+  color: rgb(51, 50, 50);
+  padding-bottom: 50px;
+  line-height: 30px;
+}
+.foods__title h5 {
+  font-size: 14px;
+  color: rgb(67, 67, 67);
+  font-family: 'Fahkwang';
+}
+.foods__menu {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-gap: 20px;
+}
+.foods__title p {
+  font-size: 12px;
+  padding-top: 10px;
+  color: gray;
+}
+.f-btn {
+  display: flex;
+  justify-content: center;
+  padding: 10px 20px;
+  border: none;
+  background-color: rgb(185, 28, 28);
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.f-btn:hover {
+  background-color: rgb(239, 68, 68);
+}
+.f-icons {
+  text-align: center;
+  padding-top: 60px;
+}
+.f-icons__card {
+  max-width: 800px;
+  border: 1px solid rgb(247, 244, 244);
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  box-shadow: 7px 5px 8px 6px rgb(241, 239, 239);
+}
+.f-icons__card:hover {
+  margin-top: -4px;
+}
+.f-icons__healthy {
+  display: flex;
+  width: 90%;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+.f-icons__card span {
+  font-size: 19px;
+  font-weight: 600;
+  color: rgb(60, 58, 58);
+  font-family: 'Fahkwang';
+}
+.f-icons__card p {
+  padding-top: 17px;
+  color: rgb(90, 88, 88);
+  font-family: 'Roboto';
+  font-size: 12px;
+}
+.f-icons__photo {
+  max-width: 60px;
+  height: 70px;
+}
+.f-icons__photo img {
+  width: 100%;
+  height: 100%;
+}
+.food-dishes {
+  background-image: url(bi2.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.food-dishes__title {
+  text-align: center;
+  line-height: 35px;
+  margin-top: -20px;
+}
+.food-dishes__title span {
+  color: rgb(239, 68, 68);
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+}
+.foods__dishes {
+  max-width: 800px;
+  align-items: center;
+}
+.food-dishes__title h1 {
+  font-family: 'Fahkwang', sans-serif;
+  font-size: 30px;
+  color: rgb(53, 52, 52);
+  font-weight: 300;
+}
+.food-dishes__photo {
+  max-width: 200px;
+  height: 200px;
+}
+.food-dishes__card {
+  display: flex;
+  max-width: 750px;
+  padding-top: 10px;
+}
+.food-dishes__style {
+  max-width: 300px;
+  padding-top: 40px;
+}
+.food-dishes__style h3 {
+  font-family: 'Fahkwang', sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  padding-bottom: 23px;
+  color: rgb(71, 69, 69);
+}
+.food-dishes__style p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  color: rgb(107, 106, 106);
+  line-height: 20px;
+}
+.food-dishes__photo img {
+  width: 100%;
+  height: 100%;
+}
+.booking-sit {
+  background-image: url(bi3.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 60px;
+}
+.booking-sit__table {
+  max-width: 200px;
+  margin-right: 190px;
+}
+input {
+  padding-right: 190px;
+  padding-left: 2px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-bottom: 10px;
+}
+.inbox {
+  font-size: 11px;
+  padding-right: 190px;
+  gap: 45px;
+}
+.booking-sit span {
+  color: rgb(239, 68, 68);
+  display: flex;
+  font-size: 15px;
+  padding-top: 60px;
+}
+.booking-sit h1 {
+  color: white;
+  font-size: 40px;
+  padding-bottom: 30px;
+  font-family: 'Fahkwang', sans-serif;
+}
+.b-btn {
+  background-color: rgb(185, 28, 28);
+  border: none;
+  padding: 10px 15px;
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.photo {
+  max-width: 270px;
+  height: 250px;
+}
+.photo img {
+  width: 100%;
+  height: 100%;
+}
+.back-img {
+  margin-top: -60px;
+  width: 100%;
+  height: 100px;
+}
+.foodtest {
+  display: flex;
+  max-width: 700px;
+  background-color: rgb(247, 247, 247);
+  margin-top: -33px;
+  padding-bottom: 50px;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+.foodtest__card {
+  max-width: 300px;
+  padding-top: 20px;
+}
+.foodtest span {
+  color: rgb(244, 31, 31);
+  padding-bottom: 10px;
+  font-weight: 400;
+  font-size: 17px;
+}
+.foodtest h2 {
+  color: rgb(56, 55, 55);
+  font-size: 20px;
+  padding-top: 10px;
+  font-family: 'Fahkwang', sans-serif;
+  padding-bottom: 10px;
+}
+.foodtest h5 {
+  color: rgb(62, 56, 56);
+  padding-top: 10px;
+  font-size: 11px;
+}
+.foodtest p {
+  font-size: 12px;
+  line-height: 20px;
+  padding-bottom: 10px;
+  color: rgb(98, 95, 95);
+}
+.recipis__card {
+  max-width: 250px;
+}
+.recipis__photo {
+  max-width: 250px;
+  height: 180px;
+}
+.recipis__photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.recipies {
+  padding-bottom: 50px;
+}
+.recipis {
+  background-image: url(i22.webp);
+  background-position: center;
+  background-size: cover;
+  margin-top: 50px;
+  margin-top: 80px;
+  padding-left: 50px;
+}
+.recipis span {
+  color: rgb(239, 68, 68);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+.recipis h1 {
+  font-family: 'Fahkwang', sans-serif;
+  font-size: 30px;
+  color: rgb(107, 106, 106);
+}
+.recipis__menu {
+  padding-top: 50px;
+  display: flex;
+  padding-right: 50px;
+}
+.recipis__card h2 {
+  font-family: 'Fahkwang', sans-serif;
+  font-size: 17px;
+  color: rgb(69, 68, 68);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.recipis__card p {
+  color: gray;
+  font-size: 12px;
+  line-height: 16px;
+  padding-bottom: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+.r-span {
+  color: rgb(148, 46, 46);
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.contact {
+  background-image: url(bg.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.contact__menuitam {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  max-width: 700px;
+}
+.contact__list {
+  list-style: none;
+  line-height: 30px;
+  max-width: 150px;
+  position: relative;
+}
+.contact__list span {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: 'Fahkwang', sans-serif;
+}
+.contact__list li {
+  font-size: 13px;
+}
+.contact__part1 {
+  max-width: 180px;
+}
+.contact__part1 p {
+  font-size: 13px;
+  padding-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+.contact__con {
+  border-top: 1.2px solid gray;
+  max-width: 720px;
+  font-size: 13px;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.contact__btn {
+  margin-left: 40px;
+}
+.c-btn {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(239, 68, 68);
+  border-radius: 50%;
+  border: none;
+}
+@media screen and(max-width:992px) {
+}
+@media (max-width: 756px) {
+  .container__list li {
+    display: none;
+  }
+  .h-btn {
+    display: none;
+  }
+  .var-icon {
+    display: block;
+    padding: 7px 10px;
+    background-color: var(--color-2);
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  .contant__foods {
+    display: flex;
+    flex-direction: 33.33%;
+  }
+  .foods__menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .foods__card {
+    display: flex;
+    flex-direction: column;
+  }
+  .foods__card {
+    display: flex;
+    text-align: start;
+  }
+  .food-dishes__photo {
+    order: 1;
+  }
+  .food-dishes__style {
+    order: 2;
+  }
+  .f-icons__healthy {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .food-dishes__menus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .foodtest {
+    display: flex;
+    flex-direction: column;
+  }
+  .food-dishes__card {
+    display: flex;
+    flex-direction: column;
+  }
+  .recipis__menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact__menuitam {
+    display: flex;
+    flex-direction: column;
+    margin-left: -200px;
+  }
+  .contact__list {
+    text-transform: ;
+  }
+}
+@media (max-width: 576px) {
+  .container__list li {
+    display: none;
+  }
+  .contant__foods {
+    display: flex;
+    flex-direction: column;
+  }
+  .foods__menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .f-icons__healthy {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .food-dishes__menus {
+    display: flex;
+    flex-direction: column;
+  }
+  .food-dishes__card {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 400px) {
+  body {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100%;
+    align-items: center;
+  }
+  .container__list li {
+    display: none;
+  }
+  .contant__foods {
+    display: flex;
+    flex-direction: column;
+  }
+  .foods__menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .f-icons__healthy {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .food-dishes__menus {
+    display: flex;
+    flex-direction: column;
+  }
+  .food-dishes__card {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.recipies__card {
+  flex: 1 1 33.33%;
+  font: optional;
+  ound-attachment: fixed;
+  color: red;
+}
+
+html {
+  font-size: 3px;
+}
+
+.main {
+  font-size: 5em;
+}
+
+.b-btn {
+  font-size: 2.4rem;
+}
+
+@media screen (max-width: 400px), (min-width: 600px) {
+  html {
+    font-size: 8px;
+  }
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" 
+    <title>Document</title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		column{
+			float: left;
+			width: 25%;
+			padding: 10px;
+		}
+		@media screen and  (max-width:992px){
+			.column{
+				float: left;
+				width: 50%;
+			}
+			
+		}
+		@media screen and  (max-width:600px){
+			.column{
+				width: 100%;
+			}
+		}
+	</style>
+  </head>
+  <body>
+    <div class="row">
+      <div class="column">
+        <h1>HTML</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          labore eos beatae quam ut error atque inventore repellat animi dolor.
+          Placeat quis, tenetur nam perferendis fuga cum qui impedit commodi?
+        </p>
+      </div>
+      <div class="column">
+        <h1>CSS</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum cum,
+          voluptatibus vero aperiam quae expedita corrupti, beatae ducimus fugit
+          laboriosam sed fugiat nihil autem distinctio eius esse nemo voluptas
+          quibusdam!
+        </p>
+      </div>
+      <div class="column">
+        <h1>JS</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum non
+          necessitatibus saepe expedita? Sapiente facilis id reiciendis vel.
+          Enim illum a recusandae corporis est sint rem quos quam cupiditate
+          minus!
+        </p>
+      </div>
+      <div class="column">
+        <h1>Broster</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus ex
+          fugit aspernatur consectetur, dicta iste provident deserunt placeat
+          quasi ipsum quidem neque sequi dolore reiciendis dolorum veritatis
+          recusandae libero labore?
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

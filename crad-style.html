@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>card style css</title>
+    <style>
+      .card {
+        width: 300px;
+        margin: 10px;
+        box-sizing: border-box;
+        box-shadow: 1px 2px 4px black;
+      }
+      .img-style {
+        width: 100%;
+      }
+      .card-body {
+        padding: 5px;
+        background-color: rgb(244, 89, 192);
+      }
+      .card-title {
+        font-size: 2rem;
+        text-align: center;
+        color: white;
+      }
+      .card-desc {
+        text-align: justify;
+        line-height: 1.5;
+        color: white;
+      }
+      .card:hover {
+        box-shadow: 6px 12px 10px blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <img class="img-style" src="cs-style.jpg" />
+      <div class="card-body">
+        <div class="card-title">CSS STYLE</div>
+        <div class="card-desc">
+          <p>
+            CSS stands for Cascading Style Sheets CSS describes how HTML
+            elements are to be displayed on screen, paper, or in other media CSS
+            saves a lot of work. It can control the layout of multiple web pages
+            all at once External stylesheets are stored in CSS files
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

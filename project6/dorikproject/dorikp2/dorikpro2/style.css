@@ -1,0 +1,524 @@
+* {
+  margin: 0 auto;
+  padding: auto;
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+.container {
+  background-image: url(bp.webp);
+  background-position: 100% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+  padding-left: 10%;
+}
+.c-b {
+  display: none;
+}
+.container__logo {
+  width: 50px;
+  height: 20px;
+  margin-bottom: 0px;
+  text-align: start;
+}
+.container__logo img {
+  width: 100%;
+  height: 100%;
+  text-align: start;
+}
+.container__navber {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.container__list {
+  display: flex;
+  gap: 20px;
+}
+.container__ulist {
+  display: flex;
+  gap: 45px;
+  margin-top: px;
+}
+.container__ulist li {
+  list-style: none;
+}
+.container__ulist a {
+  text-decoration: none;
+  color: rgb(69, 69, 138);
+}
+.btn {
+  font-size: 16px;
+  border: none;
+  background-color: var(--color-1);
+  margin-top: -13px;
+}
+.btn:hover {
+  background-color: rgb(126, 56, 239);
+  padding: 7px 10px;
+  color: white;
+  border-radius: 5px;
+}
+.batn {
+  padding: 10px 15px;
+  border: none;
+  background-color: hsl(263, 69%, 51%);
+  color: white;
+  font-size: 15px;
+  margin-top: -13px;
+  border-radius: 7px;
+}
+.contant {
+  display: flex;
+}
+.photo {
+  margin-top: 100px;
+  width: 350px;
+  height: 350px;
+}
+.photo img {
+  height: 100%;
+  width: 100%;
+}
+.contant__title {
+  width: 300px;
+}
+.contant__title h1 {
+  font-size: 50px;
+  line-height: 50px;
+  margin-top: 30px;
+  color: rgb(2, 2, 40);
+}
+.contant__title p {
+  color: rgb(65, 65, 76);
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.i-div {
+  display: flex;
+  gap: 0;
+  margin-top: 30px;
+  margin-right: -40px;
+  background-color: rgb(184, 224, 248);
+  padding: 10px;
+}
+.i-div input {
+  border: none;
+  padding: 6px;
+  background-color: none;
+  color: var(--color-3);
+  background-color: var(--color-1);
+}
+.i-div input:focus {
+  border: 1px solid rgb(173, 173, 249);
+  padding: 12px 20px;
+  border-radius: 7px;
+  outline: none;
+}
+.contant__title span {
+  background-color: rgb(198, 232, 251);
+  color: grey;
+  padding: 17px 8px;
+  font-size: 13px;
+  text-align: center;
+  border-radius: 10px;
+}
+.i-div button {
+  padding: 11px 30px;
+  border-radius: 7px;
+  border: none;
+  background-color: rgb(6, 6, 139);
+  color: white;
+}
+.control h1 {
+  width: 300px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.learn {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  grid-gap: 40px;
+  margin: 40px;
+}
+.learn__box {
+  display: flex;
+  gap: 20px;
+  width: 350px;
+  line-height: 20px;
+  height: 160px;
+  border-radius: 10px;
+  padding: 20px 20px;
+  border: 1px solid blue;
+  box-shadow: 3px 3px 2px 2px rgb(123, 0, 255);
+}
+.learn__title p {
+  color: rgb(131, 89, 239);
+  margin-top: 10px;
+  line-height: 25px;
+}
+.learn__icon {
+  width: 140px;
+  height: 55px;
+}
+.learn__icon img {
+  width: 100%;
+  height: 100%;
+}
+.blog {
+  display: flex;
+  gap: 10px;
+}
+.blog__title {
+  width: 300px;
+  margin-left: 20px;
+}
+.blog__title h1 {
+  font-size: 30px;
+}
+.blog__title p {
+  color: gray;
+  line-height: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.vbtn {
+  padding: 10px 19px;
+  background-color: rgb(131, 3, 250);
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
+.hero {
+  margin-top: 100px;
+}
+.hero h1 {
+  margin-left: 50px;
+  margin-bottom: 50px;
+  width: 300px;
+  font-size: 30px;
+  color: rgb(2, 2, 46);
+}
+.heros {
+  width: 800px;
+  display: grid;
+  grid-template-columns: 33% 33% 32%;
+  grid-gap: 20px;
+  margin: 0 auto;
+}
+.heros__card {
+  border: 1px solid blue;
+  background-color: rgb(246, 246, 201);
+  width: 250px;
+  height: 400px;
+  line-height: 36px;
+  font-size: 13px;
+  border-radius: 7px;
+  box-shadow: 3px 3px 2px 2px blue;
+}
+.heros__card h2 {
+  text-align: center;
+}
+.heros__p {
+  width: 200px;
+  height: 170px;
+  margin-top: 20px;
+}
+.heros__p img {
+  width: 100%;
+  height: 100%;
+}
+.heros__ititle {
+  display: flex;
+  padding-top: 10px;
+  color: rgb(171, 171, 234);
+  font-size: 18px;
+}
+
+.heros__icon {
+  display: flex;
+}
+.heros__icons {
+  display: flex;
+  justify-content: space-around;
+  font-size: 17px;
+}
+.heros__icon i {
+  color: yellow;
+}
+.heros__icon span,
+del {
+  color: rgb(71, 71, 110);
+}
+.heros__icons span {
+  color: blue;
+}
+.commits {
+  width: 850px;
+  margin: 0 auto;
+}
+.commits__div {
+  display: flex;
+  margin-top: 100px;
+}
+.commits__title {
+  width: 330px;
+}
+.commits__title h1 {
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.commits__title p {
+  color: rgb(82, 82, 125);
+  line-height: 25px;
+}
+.commits__p {
+  width: 360px;
+  height: 300px;
+}
+.commits__p img {
+  width: 100%;
+  height: 100%;
+}
+.commits__photo {
+  width: 380px;
+  height: 300px;
+  margin-top: -130px;
+}
+.commits__photo img {
+  width: 100%;
+  height: 100%;
+}
+.commits__style {
+  width: 360px;
+  margin-top: -70px;
+}
+.commits__style span {
+  color: rgb(82, 82, 102);
+}
+.commits__style h1 {
+  margin-bottom: 25px;
+  color: rgb(2, 2, 39);
+  font-size: 19px;
+}
+.commits__div h1:hover {
+  color: rgb(18, 18, 171);
+}
+.commits__style span:hover {
+  margin-top: 20px;
+  color: blue;
+}
+
+.commites__style {
+  position: relative;
+  margin-left: 25px;
+  width: 400px;
+  color: rgb(2, 2, 36);
+}
+.commites__style h1 {
+  font-size: 19px;
+  margin-bottom: 25px;
+}
+.commites__style h1:hover {
+  color: blue;
+}
+.commites__style span {
+  color: rgb(42, 42, 68);
+}
+.commites__style span :hover {
+  color: blue;
+}
+.consol h1 {
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  font-size: 28px;
+  width: 390px;
+  text-align: start;
+}
+.consol__box {
+  border: 1px solid blue;
+  width: 800px;
+  box-shadow: 3px 3px 2px 2px blue;
+  line-height: 25px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+}
+.consol__p {
+  width: 50px;
+  height: 50px;
+}
+.consol__p img {
+  width: 100%;
+  height: 100%;
+}
+.consol__box p {
+  color: rgb(119, 119, 248);
+}
+.consol__i {
+  width: 700px;
+  height: 130px;
+  padding: 10px;
+  margin: 20px 10px;
+}
+.consol__i img {
+  width: 100%;
+  height: 100%;
+}
+.card {
+  width: 750px;
+  margin-top: 100px;
+}
+.card h1 {
+  font-size: 28px;
+  text-align: start;
+  margin-bottom: 25px;
+}
+.card__box {
+  display: flex;
+  gap: 5px;
+}
+.card__body {
+  width: 350px;
+  line-height: 20px;
+}
+.card__body p {
+  color: rgb(135, 135, 251);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.card__body h3:hover {
+  color: rgb(82, 82, 194);
+}
+.card__p {
+  width: 350px;
+  height: 250px;
+}
+.card__p img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+h5 {
+  text-align: center;
+  margin-top: 30px;
+}
+.cbtn {
+  text-align: center;
+  padding: 8px 17px;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: rgb(61, 61, 242);
+  color: white;
+}
+.cbtn:hover {
+  background-color: rgb(123, 123, 209);
+}
+footer {
+  margin-top: 130px;
+  background-color: rgb(219, 247, 252);
+}
+.contact {
+  display: flex;
+  padding-top: 50px;
+  gap: 50px;
+  width: 800px;
+}
+.icon {
+  background-color: var(--color-1);
+  border: none;
+  font-size: 20px;
+}
+.input-box {
+  display: flex;
+  background-color: white;
+  margin-right: 40px;
+  border-radius: 7px;
+  padding: 10px;
+}
+.contact__div {
+  width: 230px;
+  text-align: start;
+  line-height: 25px;
+}
+.contact__div p {
+  color: grey;
+  padding-bottom: 20px;
+}
+.submit {
+  border: none;
+  background-color: rgb(85, 0, 255);
+  color: white;
+  padding: 15px 25px;
+  margin-right: 5px;
+  border-radius: 6px;
+}
+.input-box input {
+  border: none;
+}
+.contacts {
+  display: flex;
+  margin-top: 30px;
+}
+.contact__lists li {
+  list-style: none;
+  font-size: 13px;
+  color: rgb(121, 118, 118);
+  line-height: 19px;
+}
+.address {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+}
+@media screen and (max-width: 625px) {
+  .container__navber {
+    width: 90%;
+  }
+  .container__list {
+    display: none;
+  }
+  .contant {
+    display: block;
+    flex-direction: column;
+  }
+  .learn__box {
+    width: 100%;
+    height: auto;
+  }
+  .blog {
+    display: block;
+    flex-direction: column;
+  }
+  .heros {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .commits {
+    width: 100%;
+  }
+  .commits__div {
+    display: block;
+    flex-direction: column;
+  }
+  .consol__box {
+    width: 100%;
+  }
+  .consol__i {
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+  }
+  .card__box {
+    display: block;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ewert&family=Italianno&family=Lobster&family=Montserrat&family=Norican&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>table style css</title>
+    <style>
+      table {
+        border: 2px solid black;
+        border-collapse: collapse;
+        width: 500px;
+      }
+      tr,
+      th,
+      td {
+        border: 2px solid black;
+        text-align: center;
+      }
+      th {
+        background-color: darkgreen;
+      }
+      tr:nth-child(even) {
+        background-color: gray;
+      }
+      tr:nth-child(odd) {
+        background-color: rgb(189, 132, 57);
+      }
+      tr:hover {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>GP</th>
+        <th>Phone</th>
+        <th>Bio</th>
+      </tr>
+      <tr>
+        <td>101</td>
+        <td>Sumi</td>
+        <td>5.00</td>
+        <td>9944</td>
+        <td>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+          qui.
+        </td>
+      </tr>
+      <tr>
+        <td>102</td>
+        <td>Himu</td>
+        <td>4.00</td>
+        <td>9944</td>
+        <td>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum,
+          minus.
+        </td>
+      </tr>
+      <tr>
+        <td>103</td>
+        <td>Rumi</td>
+        <td>2.00</td>
+        <td>9944</td>
+        <td>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti,
+          quisquam.
+        </td>
+      </tr>
+      <tr>
+        <td>104</td>
+        <td>Sin</td>
+        <td>3.00</td>
+        <td>9944</td>
+        <td>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Reprehenderit, sapiente.
+        </td>
+      </tr>
+      <tr>
+        <td>105</td>
+        <td>Misu</td>
+        <td>4.00</td>
+        <td>9944</td>
+        <td>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+          recusandae.
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

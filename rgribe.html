@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .header {
+        background-color: rgb(9, 37, 249);
+        color: white;
+        padding: 1% 5%;
+        text-align: center;
+      }
+      .nav-menu {
+        background-color: rgb(52, 210, 210);
+        padding: 1% 5%;
+      }
+      .nav-menu a {
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+        font-size: 0.8rem;
+        display: block;
+      }
+      .main {
+        background-color: rgb(6, 241, 163);
+        padding: 1% 5%;
+      }
+      .aside {
+        background-color: rgba(13, 250, 250, 0.939);
+        padding: 1% 5%;
+        text-align: center;
+      }
+      .footer {
+        background-color: black;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        font-size: 0.8rem;
+      }
+
+      /* For desktop: */
+      .col-1 {
+        width: 8.33%;
+      }
+      .col-2 {
+        width: 16.66%;
+      }
+      .col-3 {
+        width: 25%;
+      }
+      .col-4 {
+        width: 33.33%;
+      }
+      .col-5 {
+        width: 41.66%;
+      }
+      .col-6 {
+        width: 50%;
+      }
+      .col-7 {
+        width: 58.33%;
+      }
+      .col-8 {
+        width: 66.66%;
+      }
+      .col-9 {
+        width: 75%;
+      }
+      .col-10 {
+        width: 83.33%;
+      }
+      .col-11 {
+        width: 91.66%;
+      }
+      .col-12 {
+        width: 100%;
+      }
+
+      [class*='col-'] {
+        float: left;
+        padding: 10px;
+      }
+      .row::after {
+        content: '';
+        clear: both;
+        display: table;
+      }
+      @media screen and (max-width: 768px) {
+        [class*='col-'] {
+          width: 100%;
+        }
+      }
+      .nav-menu a {
+        text-align: center;
+        background-color: black;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Sumi Akther</h1>
+    </div>
+    <div class="row">
+      <div class="nav-menu col-2">
+        <a href="#">Home</a>
+        <a href="#">Tutorial</a>
+        <a href="#">Contant</a>
+      </div>
+      <div class="main col-7">
+        <h1>I am a web designer</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+          consequuntur ex optio ipsum doloribus repellendus enim quos totam esse
+          repellat, inventore ea, qui odio nam voluptatum sit? Aperiam,
+          similique debitis.
+        </p>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+          voluptas distinctio sit tenetur dolorum, corrupti dolor sequi
+          quibusdam reprehenderit saepe quas, assumenda labore facere reiciendis
+          aspernatur! Ex maiores ipsum iusto?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque omnis
+          esse est necessitatibus, recusandae modi iusto nesciunt molestias ipsa
+          facilis voluptate ex, nemo provident dolore? Reiciendis placeat
+          dolores voluptatum eum!
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, sequi
+          impedit voluptas aut iure deserunt, dicta placeat ad saepe optio
+          laudantium doloribus eum officia harum magnam neque non veniam nisi
+          sit aspernatur nemo laboriosam a minus. Fugiat nobis fugit dolorum
+          expedita inventore nihil numquam sunt dolore! Quaerat dolor, ratione
+          odio neque aspernatur maxime ipsum assumenda iste, consectetur
+          accusantium perspiciatis delectus distinctio numquam? Ad amet error
+          facere labore ducimus inventore, libero eveniet accusantium omnis,
+          mollitia impedit odit et pariatur fugit suscipit dolores neque
+          voluptates incidunt qui dolorem sed rem perferendis ullam consequatur.
+          Distinctio, ipsum totam dolorum error doloribus ullam id suscipit.
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quisquam
+          veniam sint eveniet alias voluptatum voluptas cupiditate maxime beatae
+          rerum. Animi at maiores consectetur praesentium, rerum beatae repellat
+          assumenda, nam laudantium iusto voluptate. Aperiam, asperiores culpa
+          ullam cumque iusto exercitationem! Officiis sint libero accusantium
+          eius esse, labore a voluptatibus. Repudiandae, tempora!
+        </p>
+      </div>
+      <div class="aside col-3">
+        <h1>what I love</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing accusantium, dicta
+          error obcaecati atque?
+        </p>
+        <h1>What I Do</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
+          cupiditate nemo ducimus.
+        </p>
+        <h1>What Don't love</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis alias
+          aspernatur laboriosam molestias pariatur.
+        </p>
+      </div>
+    </div>
+    <div class="footer">facebook Open Cloes</div>
+  </body>
+</html>

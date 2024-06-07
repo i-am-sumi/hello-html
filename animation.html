@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation style css</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .skill-container {
+        background-color: gray;
+        width: 500px;
+        padding: 20px;
+      }
+      .skill-container li {
+        list-style-type: none;
+        margin: 50px 0;
+        font-weight: bolder;
+        text-transform: uppercase;
+        position: relative;
+      }
+      .skill-container li::before {
+        content: '';
+        position: absolute;
+        top: calc(100% + 5px);
+        left: 0;
+
+        background-color: rgb(170, 167, 173);
+        width: 100%;
+        height: 25px;
+        border-radius: 1000px;
+      }
+      .skill-container li::after {
+        content: '';
+        position: absolute;
+        top: calc(100% + 5px);
+        left: 0;
+
+        background-color: rgb(249, 249, 250);
+        width: 0;
+        height: 25px;
+        border-radius: 1000px;
+
+        animation-duration: 3s;
+        animation-timing-function: ease;
+        animation-delay: 1s;
+        /* animation-iteration-count: 3;*/
+        /* animation-direction: forward;*/
+        animation-fill-mode: forwards;
+      }
+      .skill-container li.html::after {
+        animation-name: html;
+      }
+      @keyframes html {
+        to {
+          width: 90%;
+          background-color: blue;
+        }
+      }
+      .skill-container li.css::after {
+        animation-name: css;
+      }
+      @keyframes css {
+        to {
+          width: 80%;
+          background-color: rgb(0, 174, 255);
+        }
+      }
+      .skill-container li.js::after {
+        animation-name: js;
+      }
+      @keyframes js {
+        to {
+          width: 75%;
+          background-color: rgb(56, 249, 7);
+        }
+      }
+      .skill-container li.java::after {
+        animation-name: java;
+      }
+      @keyframes java {
+        to {
+          width: 70%;
+          background-color: rgb(179, 255, 0);
+        }
+      }
+      .skill-container li.c::after {
+        animation-name: c;
+      }
+      @keyframes c {
+        to {
+          width: 65%;
+          background-color: rgb(242, 234, 187);
+        }
+      }
+      .skill-container li.bootstrap::after {
+        animation-name: bootstrap;
+      }
+      @keyframes bootstrap {
+        to {
+          width: 85%;
+          background-color: rgb(157, 93, 144);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="skill-container">
+      <ul>
+        <li class="html">Html</li>
+        <li class="css">css</li>
+        <li class="js">js</li>
+        <li class="bootstrap">bootstrap</li>
+        <li class="java">java</li>
+        <li class="c">c++</li>
+      </ul>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,439 @@
+* {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+  max-width: 1250px;
+}
+.container__navber {
+  max-width: 800px;
+  display: flex;
+  padding-top: 14px;
+  padding-bottom: 15px;
+}
+.container__photo {
+  max-width: 120px;
+  height: 40px;
+}
+.container__photo svg {
+  width: 100%;
+  height: 100%;
+}
+.container__list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-family: 'Inter';
+  font-size: 11px;
+}
+.h-btn {
+  padding: 10px 10px;
+  font-size: 11px;
+  border-radius: 5px;
+  border: 1px solid rgb(72, 70, 70);
+  background-color: var(--color-2);
+  font-family: 'Inter';
+}
+.container__backpage {
+  background-image: url(bi.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 120px;
+  padding-bottom: 90px;
+  color: white;
+  text-align: center;
+  line-height: 40px;
+}
+.container__title {
+  max-width: 500px;
+}
+
+.container__title h1 {
+  font-family: 'Libre Baskerville';
+  line-height: 47px;
+  font-size: 44px;
+  padding-bottom: 40px;
+}
+.container__title p {
+  line-height: 19px;
+  font-size: 13px;
+  font-family: 'Inter';
+  padding-bottom: 20px;
+}
+.bc-btn {
+  padding: 12px 26px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(222, 11, 11);
+  color: white;
+  font-family: 'Inter';
+  font-size: 12px;
+}
+.contant {
+  background-color: rgb(237, 240, 245);
+  padding-bottom: 60px;
+  padding-top: 90px;
+}
+.contant h1 {
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 39px;
+  font-family: 'Libre Baskerville';
+}
+.contant__works {
+  display: flex;
+  max-width: 700px;
+}
+.contant__card {
+  max-width: 240px;
+  padding-top: 32px;
+  border-radius: 5px;
+  line-height: 38px;
+  height: 200px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+.contant__card p {
+  font-size: 13px;
+  max-width: 200px;
+  line-height: 18px;
+  color: grey;
+}
+.contant__icon {
+  max-width: 55px;
+  height: 40px;
+  background-color: rgb(222, 11, 11);
+  border-radius: 5px;
+}
+.contant__icon i {
+  text-align: center;
+  padding-top: 12px;
+  color: white;
+}
+.icon {
+  text-align: center;
+  padding-bottom: 16px;
+  font-size: 12px;
+}
+.card-desing {
+  padding-top: 50px;
+}
+.card-desing h2 {
+  text-align: center;
+  font-size: 33px;
+  font-weight: 500;
+  font-family: 'Libre Baskerville';
+}
+.card-desing__div {
+  display: flex;
+  max-width: 800px;
+}
+.card-desing__photo {
+  max-width: 200px;
+  height: 180px;
+}
+.card-desing__photo img {
+  height: 100%;
+  height: 100%;
+}
+.card-desing__box {
+  max-width: 240px;
+  height: 300px;
+  padding-top: 10px;
+  padding-right: 9px;
+  border-radius: 7px;
+  background-color: rgb(255, 255, 255);
+}
+.card-desing__body {
+  padding-left: 8px;
+}
+.card-desing__body p {
+  font-size: 13px;
+  color: gray;
+  padding-right: 40px;
+}
+.card-desing__body span {
+  font-family: 'Libre Baskerville';
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 36px;
+}
+.card-desing__body_icons {
+  display: flex;
+  gap: 50px;
+  padding-left: -8px;
+}
+.i-btn {
+  border: none;
+  background-color: var(--color-2);
+}
+.card-btn {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  font-size: 11px;
+  padding: 4px 15px;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(222, 11, 11);
+  color: white;
+}
+.grid-design__itams1 {
+  padding-top: 80px;
+  padding-bottom: 180px;
+  width: 200px;
+  background-image: url(i4.webp);
+  background-position: center;
+  background-size: cover;
+  border-radius: 7px;
+}
+.grid-design__itams1 {
+  text-align: center;
+  color: white;
+  padding-top: 150px;
+}
+.grid-design__itams1 span {
+  font-weight: bold;
+  font-size: 19px;
+}
+.grid-design__itams {
+  display: flex;
+  max-width: 800px;
+}
+
+.itam2 {
+  max-width: 600px;
+  border-bottom: 7px;
+}
+.grid-design {
+  margin-top: 80px;
+}
+.grid-design h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+.grid-design__itams2 {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  background-image: url(i5.webp);
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+}
+.grid-design__itams2 {
+  text-align: center;
+  color: white;
+}
+.grid-design__itams2 span {
+  font-weight: bold;
+  font-size: 19px;
+}
+.grid-design__itams3 {
+  background-image: url(i17.webp);
+  background-position: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-size: cover;
+  border-radius: 5px;
+}
+.grid-design__itams3 {
+  text-align: center;
+  color: white;
+}
+.grid-design__itams4 {
+  background-image: url(i16.webp);
+  background-position: center;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 5px;
+}
+.grid-design__itams4 {
+  text-align: center;
+  color: white;
+}
+.itam3 {
+  width: 280px;
+}
+.itam4 {
+  width: 280px;
+}
+.grid-pic {
+  display: flex;
+  max-width: 600px;
+  padding-top: 10px;
+}
+.resort-design {
+  background-image: url(bi2.webp);
+  background-position: center;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  color: white;
+}
+.resort-design__view {
+  display: flex;
+  max-width: 700px;
+}
+.resort-design__aside {
+  max-width: 300px;
+}
+.resort-design__aside h1 {
+  font-size: 40px;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+.resort-design__aside p {
+  font-size: 13px;
+  line-height: 20px;
+}
+.resort-designs {
+  padding-top: 10px;
+}
+.resort-design__icon p {
+  font-size: 13px;
+}
+.resort-design__photo {
+  max-width: 350px;
+  height: 220px;
+}
+.resort-design__photo img {
+  width: 100%;
+  height: 100%;
+}
+.resort-design__icon {
+  display: flex;
+  max-width: 300px;
+  margin-left: -10px;
+  gap: 100px;
+}
+.resort-design__icons {
+  display: flex;
+  max-width: 300px;
+  gap: 100px;
+  margin-left: -7px;
+  padding-top: 10px;
+}
+.resort-design__icons p {
+  font-size: 13px;
+}
+.resort-design__icons span {
+  font-size: 21px;
+}
+.f-menus {
+  display: flex;
+  gap: 20px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  max-width: 750px;
+}
+.f-menus__photo {
+  max-width: 160px;
+  height: 180px;
+}
+.f-menus__aside {
+  max-width: 600px;
+}
+.f-menus__photo img {
+  width: 100%;
+  height: 100%;
+}
+.f-menus__aside p {
+  font-family: 'Inter';
+  font-style: italic;
+  font-size: 11px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-weight: 600;
+}
+.footers__photo {
+  max-width: 120px;
+  height: 60px;
+}
+.footers__photo svg {
+  width: 100%;
+  height: 100%;
+  margin-left: -80px;
+}
+.f-menus__aside h4 {
+  font-family: 'Libre Baskerville';
+  font-weight: 700;
+  font-size: 12px;
+}
+.f-menus__aside span {
+  color: gray;
+  font-size: 13px;
+}
+.footers {
+  max-width: 700px;
+  display: flex;
+  padding-top: 35px;
+  padding-bottom: 50px;
+}
+.footers__style p {
+  font-size: 13px;
+  color: rgb(96, 92, 92);
+  padding-bottom: 10px;
+}
+.f-input {
+  padding: 8px 15px;
+  font-size: 10px;
+  border: 1.3px solid black;
+  border-radius: 4px;
+}
+.f-input:focus {
+  outline: 1px rgb(0, 51, 255) solid;
+  border: none;
+}
+.f-btn {
+  background-color: rgb(222, 11, 11);
+  color: white;
+  border: none;
+  font-size: 12px;
+  padding: 8px 18px;
+  border-radius: 4px;
+}
+.f-list {
+  list-style: none;
+}
+.f-list li {
+  font-size: 13px;
+  color: rgb(93, 90, 90);
+  padding-top: 10px;
+}
+.f-list span {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Libre Baskerville';
+}
+.f-follow {
+  padding-bottom: 60px;
+  padding-left: 30px;
+}
+.f-follow i {
+  padding-right: 7px;
+}
+.f-follow i:hover {
+  color: red;
+}
+.f-follow h3 {
+  padding-bottom: 17px;
+  font-family: 'Libre Baskerville';
+  font-size: 16px;
+  font-weight: 500;
+}
+.f-terms {
+  display: flex;
+  gap: 200px;
+  font-size: 13px;
+  padding-top: 18px;
+  padding-bottom: 40px;
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}

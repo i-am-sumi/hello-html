@@ -1,0 +1,90 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(202, 196, 196);
+}
+.container {
+  border: 1px solid gray;
+  width: 500px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 15px 20px;
+  margin-top: 100px;
+}
+.container__form {
+  background-color: rgb(248, 245, 245);
+  padding: 15px 13px;
+}
+input {
+  background-color: var(--color-1);
+  border: none;
+}
+input::placeholder {
+  color: rgb(222, 192, 192);
+}
+.container__title {
+  padding: 10px;
+  font-size: 12px;
+  color: gray;
+}
+.container__p {
+  float: right;
+}
+
+.container__box {
+  border: 1px solid rgb(249, 247, 243);
+  display: flex;
+  padding: 6px;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.container__icon {
+  position: relative;
+  margin-right: 3px;
+}
+.container__style span {
+  padding-left: 10px;
+  font-size: 12px;
+  text-align: start;
+}
+.container__style {
+  text-align: start;
+}
+.ibtn {
+  position: relative;
+  float: right;
+  border-radius: 50%;
+  font-size: 9px;
+  padding: 4px 5px;
+  background-color: var(--color-1);
+}
+.btn {
+  border: none;
+  color: green;
+  background-color: var(--color-1);
+}
+.sbtn {
+  border: none;
+  color: rgb(197, 205, 50);
+  background-color: var(--color-1);
+}
+.vbtn {
+  border: none;
+  color: rgb(250, 4, 213);
+  background-color: var(--color-1);
+}
+.bbtn {
+  border: none;
+  background-color: var(--color-1);
+}
+
+.obtn {
+  color: green;
+  border: none;
+  background-color: var(--color-1);
+  position: relative;
+  margin-left: -100px;
+}

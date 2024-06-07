@@ -1,0 +1,687 @@
+*,
+html {
+  margin: 0 auto;
+  max-width: 1240px;
+  font-size: 95%;
+  box-sizing: border-box;
+}
+.headers {
+  background-image: url(bg-2mRdDf.webp);
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed
+  max-height: 500px;
+}
+.headers__navber {
+  position: sticky;
+  top: 0px;
+  background-color: rgb(64, 34, 24);
+}
+.headers__navlist_logo {
+  max-width: 150px;
+  height: 30px;
+}
+.headers__navlist_logo svg {
+  width: 100%;
+  height: 100%;
+}
+.headers__navlist {
+  max-width: 900px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.headers__list {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  color: white;
+  font-size: 1rem;
+}
+.headers__list li {
+  font-size: 0.9rem;
+  padding-top: 1em;
+}
+.nav-btn {
+  border: none;
+  background-color: var(--color-2);
+  color: white;
+  background-color: rgb(210, 120, 67);
+  border-radius: 5px;
+}
+.headers__div {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  padding-bottom: 9em;
+}
+.headers__article {
+  color: white;
+  max-width: 350px;
+}
+.headers__article h1 {
+  font-size: 2.9rem;
+  padding-top: 0.5em;
+  line-height: 1em;
+  font-family: 'Marcellus';
+  font-weight: 500;
+}
+.headers__article p {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  padding-top: 1.7rem;
+  padding-bottom: 1.7rem;
+}
+.h-btn {
+  background-color: rgb(210, 120, 67);
+  border: none;
+  color: white;
+  padding: 0.8rem 1.4rem;
+  border-radius: 5px;
+}
+.h-btn:hover {
+  background-color: rgb(217, 106, 42);
+}
+.hs-btn {
+  background-color: var(--color-2);
+  border: 1px solid rgb(210, 120, 67);
+  padding: 0.8rem 1.4rem;
+  margin-left: 2em;
+  border-radius: 5px;
+  color: white;
+}
+.hs-btn:hover {
+  background-color: rgb(210, 120, 67);
+}
+.container {
+  max-width: 670px;
+  background-color: rgb(64, 34, 24);
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-top: -90px;
+  padding-top: 3em;
+  padding-bottom: 5em;
+}
+.container__photo {
+  max-width: 100px;
+  height: 80px;
+}
+.container__photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.container__cards {
+  display: flex;
+  max-width: 700px;
+}
+.container__cgrope {
+  width: 200px;
+  padding: 0.7em;
+  background-color: white;
+  border-radius: 6px;
+}
+.container__cbox {
+  max-width: 700px;
+}
+.container__cbox h2 {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+  padding-bottom: 1em;
+}
+.container__card {
+  display: flex;
+  gap: 10px;
+}
+.container__title {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+.c-btn {
+  background-color: var(--color-2);
+  border: 1.5px solid rgb(210, 120, 67);
+  border-radius: 2px;
+  padding: 0.1em 0.3em;
+}
+strong {
+  padding-right: 1.3rem;
+  color: rgb(210, 120, 67);
+}
+.hero {
+  display: flex;
+  margin-top: 30px;
+  gap: 10px;
+  max-width: 750px;
+}
+.hero__photo {
+  max-width: 450px;
+  height: 380px;
+}
+.hero__photo img {
+  width: 100%;
+  height: 100%;
+}
+.hero__style {
+  max-width: 300px;
+  position: relative;
+}
+.hero__style h3 {
+  max-width: 300px;
+  font-size: 2rem;
+  font-family: 'Marcellus';
+  font-weight: 100;
+}
+.hero__style p {
+  font-size: 0.9rem;
+  line-height: 1.4em;
+  font-family: 'DM Sans';
+  padding-bottom: 1.8em;
+}
+.hero__style_logo {
+  max-width: 80px;
+  height: 20px;
+  margin-left: 8px;
+}
+.hero__style_logo svg {
+  width: 100%;
+  height: 100%;
+}
+.link {
+  color: rgb(210, 120, 67);
+  font-size: 0.8rem;
+  border-bottom: 1px solid rgb(210, 120, 67);
+}
+.contant {
+  margin-top: 3em;
+  padding-top: 5em;
+  background-color: rgb(64, 34, 24);
+  padding-bottom: 2em;
+  color: white;
+}
+.contant__cards {
+  max-width: 700px;
+  display: flex;
+}
+.contant__style {
+  max-width: 700px;
+  gap: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contant__style h2 {
+  font-size: 2rem;
+  max-width: 300px;
+  font-weight: 200;
+  font-family: 'Marcellus';
+}
+p {
+  font-family: 'DM Sans';
+}
+.contant__style p {
+  max-width: 350px;
+  font-size: 0.8rem;
+}
+.contant__itam1_card {
+  max-width: 200px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+}
+.contant__itam1_photo {
+  max-width: 200px;
+  height: 130px;
+}
+.contant__itam1_photo img {
+  width: 100%;
+  height: 100%;
+}
+.contant__itam_title {
+  padding: 1rem;
+  line-height: 0.8rem;
+}
+.contant__itam_title h3 {
+  font-size: 1rem;
+  font-family: 'Marcellus';
+  font-weight: 100;
+  padding-bottom: 0.9em;
+  color: rgb(76, 75, 75);
+}
+.contant__itam_title p {
+  font-size: 0.7rem;
+  line-height: 1rem;
+  padding-bottom: 0.8rem;
+  font-weight: 100;
+  text-align: center;
+  color: rgb(84, 83, 83);
+}
+.i-btn {
+  padding: 0.4em 1.6em;
+  border-radius: 10px;
+  color: rgb(217, 106, 42);
+  background-color: var(--color-2);
+  border: 1px solid rgb(217, 106, 42);
+}
+.foods-list__head {
+  text-align: center;
+}
+.foods-list__head h2 {
+  font-size: 2rem;
+  font-weight: 100;
+  font-family: 'Marcellus';
+  padding-top: 2em;
+  color: rgb(11, 10, 10);
+}
+.logo {
+  max-width: 100px;
+  height: 50px;
+}
+.logo svg {
+  width: 100%;
+  height: 100%;
+}
+.foods-list {
+  max-width: 900px;
+}
+.foods-list__photo {
+  max-width: 90px;
+  height: 70px;
+}
+.foods-list__photo img {
+  width: 100%;
+  height: 100%;
+}
+.foods-list__itams1 {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 20px;
+  max-width: 370px;
+}
+.foods-list__style {
+  display: flex;
+  gap: 20px;
+}
+.foods-list__style h6 {
+  font-size: 0.9rem;
+  color: rgb(22, 22, 22);
+  font-weight: 100;
+  padding-bottom: 1rem;
+  font-family: 'Marcellus';
+}
+.foods-list__style p {
+  font-size: 0.8rem;
+  color: rgb(60, 59, 59);
+}
+.foods-list__style span {
+  color: rgb(217, 106, 42);
+  font-size: 1rem;
+  font-family: 'Marcellus';
+}
+.foods-list__itams {
+  display: flex;
+  max-width: 900px;
+  flex-wrap: wrap;
+}
+.f-btn {
+  background-color: rgb(217, 106, 42);
+  display: flex;
+  justify-content: center;
+  border: none;
+  padding: 0.9em 1.6em;
+  color: white;
+  border-radius: 5px;
+}
+.f-btn:hover {
+  background-color: rgb(64, 34, 24);
+}
+.coffee-itam__photo {
+  max-width: 300px;
+  height: 230px;
+}
+.coffee-itam__photo img {
+  width: 100%;
+  height: 100%;
+}
+.coffee-itam {
+  display: flex;
+  padding-top: 50px;
+}
+.coffee-art__div {
+  max-width: 800px;
+  display: flex;
+  gap: 20px;
+}
+.coffee-art {
+  padding-top: 50px;
+  background-color: rgb(64, 34, 24);
+  padding-bottom: 3em;
+}
+.coffee-art__aside {
+  max-width: 300px;
+  color: white;
+}
+.coffee-art__aside h2 {
+  font-size: 1.7rem;
+  font-family: 'Marcellus';
+  font-weight: 100;
+}
+.coffee-art__aside p {
+  line-height: 1.5em;
+  padding-top: 2em;
+  font-size: 0.9rem;
+  padding-bottom: 1.4em;
+}
+.coffee-art__aside a {
+  border-bottom: 1px solid rgb(210, 120, 67);
+  color: rgb(217, 106, 42);
+  padding-bottom: 0.4rem;
+}
+.photo {
+  max-width: 650px;
+  height: 350px;
+  padding-top: 2em;
+}
+.photo img {
+  width: 100%;
+  height: 100%;
+}
+.c-logo {
+  max-width: 100px;
+  height: 50px;
+  position: relative;
+  margin-left: 10px;
+}
+.c-logo svg {
+  width: 100%;
+  height: 100%;
+}
+.s-logo svg {
+  color: rgb(210, 120, 67);
+  max-width: 2em;
+  height: 2em;
+  padding-top: 0.9em;
+}
+.s-logo span {
+  font-size: 1rem;
+}
+.blog {
+  padding-top: 50px;
+  display: flex;
+  max-width: 700px;
+}
+.blog__box {
+  width: 210px;
+  border-radius: 1000px 1000px 0px 0px;
+  height: 250px;
+  border: 1px solid black;
+}
+.blog__photo {
+  max-width: 200px;
+  height: 250px;
+  padding-top: 10px;
+}
+.blog__photo img {
+  position: relative;
+  margin-left: 0.3em;
+  width: 100%;
+  height: 100%;
+  border-radius: 100px 100px 0px 0px;
+}
+.blog__article {
+  max-width: 400px;
+  padding-top: 5rem;
+}
+.blog__article p {
+  font-size: 1.1rem;
+  color: rgb(52, 50, 50);
+}
+.coffees {
+  background-color: rgb(64, 34, 24);
+  margin-top: 50px;
+}
+.coffees-logo {
+  display: flex;
+  max-width: 700px;
+}
+.coffees-logo__lg {
+  max-width: 250px;
+  height: 200px;
+}
+.coffees-logo__lg svg {
+  width: 100%;
+  height: 100%;
+}
+.coffee-menu__title {
+  display: flex;
+  padding-top: 3em;
+  padding-bottom: 2em;
+}
+.coffee-menu__style svg {
+  max-width: 100px;
+  height: 30px;
+}
+.coffee-menu__style h2 {
+  font-size: 2.4rem;
+  font-weight: 100;
+  font-family: 'Marcellus';
+}
+.cm-btn {
+  padding: 1em 2em;
+  margin-top: 1em;
+  background-color: rgb(217, 106, 42);
+  border-radius: 5px;
+  color: white;
+  border: none;
+}
+.cm-btn:hover {
+  background-color: rgb(64, 34, 24);
+}
+.coffee-makes__photo {
+  max-width: 340px;
+  height: 180px;
+}
+.itams3 {
+  background-color: rgb(248, 240, 240);
+  padding-bottom: 2rem;
+}
+.coffee-makes__photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px 5px 0px 0px;
+}
+.coffee-makes__itam1 {
+  max-width: 340px;
+  background-color: white;
+  padding-bottom: 2em;
+  margin-bottom: 1em;
+}
+.coffee-makes__s {
+  max-width: 270px;
+  padding-top: 1em;
+}
+.coffee-makes__s h3 {
+  font-size: 1rem;
+  font-weight: 100;
+  font-family: 'Marcellus';
+  padding-bottom: 1em;
+  padding-top: 0.5em;
+}
+.coffee-makes__s p {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+.coffee-makes__s a {
+  border-bottom: 1px solid rgb(217, 106, 42);
+  color: rgb(210, 120, 67);
+  padding-bottom: em;
+  padding-bottom: 0.6rem;
+  font-size: 0.9rem;
+  padding-top: 2rem;
+}
+.coffee-makes__s a:hover {
+  color: rgb(64, 34, 24);
+}
+.coffee-make__htitle {
+  display: flex;
+  font-size: 0.9rem;
+  gap: 5rem;
+}
+.coffee-make__htitle span {
+  background-color: rgb(250, 200, 247);
+  padding: 0.3rem;
+  border-radius: 4px;
+}
+.coffee-makes__card {
+  max-width: 700px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.icons {
+  text-align: center;
+  max-width: 100px;
+  display: flex;
+}
+.l-btn {
+  background-color: rgb(253, 173, 126);
+  border: none;
+  color: white;
+  padding: 0.4em 0.9em;
+  border-radius: 5px;
+}
+.r-btn {
+  background-color: rgb(210, 120, 67);
+  border: none;
+  color: white;
+  padding: 0.4em 0.9em;
+  border-radius: 5px;
+}
+.coffee-house {
+  background-image: url(bb.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 10em;
+  padding-bottom: 4em;
+}
+.coffee-house__style {
+  max-width: 800px;
+  background-image: url(19.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.coffee-house__title {
+  max-width: 700px;
+  display: flex;
+  padding: 2em;
+  color: white;
+}
+.coffee-house__title h3 {
+  font-size: 1.9rem;
+  font-family: 'Marcellus';
+  font-weight: 100;
+  padding-bottom: 0.6em;
+}
+.coffee-house__title p {
+  font-size: 0.8rem;
+}
+.title {
+  width: 350px;
+}
+.o-btn {
+  padding: 1em 1.2rem;
+  border: none;
+  background-color: rgb(64, 34, 24);
+  border-radius: 5px;
+  color: white;
+}
+.o-btn:hover {
+  background-color: white;
+  color: rgb(64, 34, 24);
+}
+.contact {
+  background-color: rgb(64, 34, 24);
+  padding-bottom: 3em;
+  color: white;
+}
+.contact__itams {
+  display: flex;
+  padding-top: 3em;
+  max-width: 700px;
+  padding-bottom: 2em;
+}
+.contact__logo {
+  max-width: 150px;
+  height: 30px;
+}
+.contact__logo svg {
+  width: 100%;
+  height: 100%;
+}
+ul {
+  list-style: none;
+}
+ul span {
+  font-size: 1.2rem;
+  font-family: 'DM Sans';
+  padding-bottom: 3rem;
+}
+ul li {
+  font-size: 0.9rem;
+  line-height: 2rem;
+  font-family: 'DM Sans';
+}
+.contact__footer {
+  max-width: 700px;
+  text-align: center;
+  border-top: 1px solid white;
+  padding-top: 2em;
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+  .headers__list {
+    display: none;
+  }
+  .container__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .container__card {
+    display: flex;
+    flex-direction: column;
+  }
+  .contant__cards {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+  }
+  .contant__style {
+    display: flex;
+  }
+  .coffee-art__div {
+    display: flex;
+    flex-direction: column;
+  }
+  .blog {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact__itams {
+    display: flex;
+    flex-direction: column;
+  }
+  .foods-list__itams1 {
+    display: flex;
+  }
+}
+@media (max-width: 576px) {
+}

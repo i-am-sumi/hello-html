@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>responsive style</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .header {
+        background-color: rgb(229, 130, 9);
+        color: white;
+        text-align: center;
+        padding: 1% 5%;
+      }
+      .nav-menu {
+        background-color: rgb(7, 252, 252);
+        padding: 1% 5%;
+      }
+      .nav-menu a {
+        color: white;
+        text-decoration: none;
+        margin: 10px;
+        font-size: 0.8rem;
+        display: block;
+      }
+      .main {
+        background-color: rgb(48, 188, 188);
+        padding: 1% 5%;
+      }
+      .aside {
+        background-color: rgb(8, 248, 168);
+        text-align: center;
+        padding: 1% 5%;
+      }
+      .footer {
+        background-color: black;
+        color: white;
+        padding: 1% 5%;
+        text-align: center;
+      }
+
+      /* For desktop: */
+      .col-1 {
+        width: 8.33%;
+      }
+      .col-2 {
+        width: 16.66%;
+      }
+      .col-3 {
+        width: 25%;
+      }
+      .col-4 {
+        width: 33.33%;
+      }
+      .col-5 {
+        width: 41.66%;
+      }
+      .col-6 {
+        width: 50%;
+      }
+      .col-7 {
+        width: 58.33%;
+      }
+      .col-8 {
+        width: 66.66%;
+      }
+      .col-9 {
+        width: 75%;
+      }
+      .col-10 {
+        width: 83.33%;
+      }
+      .col-11 {
+        width: 91.66%;
+      }
+      .col-12 {
+        width: 100%;
+      }
+
+      [class*='col-'] {
+        float: left;
+        padding: 10px;
+      }
+      .row::after {
+        content: '';
+        clear: both;
+        display: block;
+      }
+      .nav-menu a {
+        text-align: center;
+        background-color: rgb(244, 150, 8);
+        padding: 5px;
+      }
+      @media only screen and (max-width: 768px) {
+        /* For mobile phones: */
+        [class*='col-'] {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Sumi Akther</h1>
+    </div>
+    <div class="row">
+      <div class="nav-menu col-2">
+        <a href="#">Home</a>
+        <a href="#">Tutorial</a>
+        <a href="#">Contant</a>
+      </div>
+      <div class="main col-7">
+        <h1>I am a web designer</h1>
+        <p>
+          A web designer creates the visual elements of a website, including the
+          layout, color scheme, typography, and graphics. They use design
+          software such as Adobe Photoshop and Sketch to create mockups of
+          website designs and work closely with webto developers ensure that the
+          final website looks and functions as intended. Web designers must have
+          an eye for detail and be skilled in using design principles to create
+          visually appealing and user-friendly websites. In addition to their
+          design skills, web designers must also have a solid understanding of
+          web technologies such as HTML, CSS, and JavaScript. This allows them
+          to create designs that can be easily translated into code by web
+          developers. Web designers must also stay up-to-date with the latest
+          design trends and technologies to ensure that their designs are modern
+          and relevant. In this article: What is a Web Designer? What does a Web
+          Designer do? What is the workplace of a Web Designer like? What are
+          the differences between UX design and web design? What does a Web
+          Designer do?Web designers are essential for creating a website that is
+          visually appealing, easy to use, and accessible to all users. Their
+          expertise in design principles, web technologies, and user experience
+          can help to ensure the success of a website. Web designers are
+          important for a website for several reasons: Visual Appeal: Web
+          designers create the visual elements of a website, such as the layout,
+          color scheme, typography, and graphics. A visually appealing website
+          can help attract and retain visitors, as well as convey the message
+          and brand of the website owner. User Experience: Web designers also
+          focus on creating a positive user experience by designing easy-to-use
+          interfaces and intuitive navigation. A good user experience can help
+          visitors find the information they need quickly and efficiently, which
+          can lead to increased engagement and conversions. Branding: Web
+          designers help to create a consistent brand image across the website,
+          which can help to build trust and credibility with visitors.
+          Consistent branding can also help to differentiate the website from
+          structure and functionality of the site. Designing graphics and visual
+          elements: A web designer will create or modify graphics and visual
+          elements to use in the
+        </p>
+      </div>
+      <div class="aside col-3">
+        <h1>A god designer?</h1>
+        <p>
+          A web designer will spend time planning and researching the project
+          requirements, client needs
+        </p>
+        <h1>A god devoloper?</h1>
+        <p>
+          developers ensure that the final website looks and functions as
+          intended
+        </p>
+        <h1>web designer?</h1>
+        <p>A web designer creates the visual elements of a website,</p>
+      </div>
+    </div>
+    <div class="footer">@study 2022 sylhet bangladesh</div>
+  </body>
+</html>
